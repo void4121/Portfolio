@@ -28,7 +28,6 @@ function Home2() {
               <br />
               <br />
               Technophile, who enjoys tech outside of work. 😃
-              with 
             </p>
           </Col>
           <Col md={4} className="myAvtar">
