@@ -9,7 +9,7 @@ import { CgGitFork } from "react-icons/cg";
 import {
   AiFillStar,
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
+  AiOutlineTool,
   AiOutlineUser,
 } from "react-icons/ai";
 
@@ -85,10 +85,10 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <AiOutlineTool
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                Services
               </Nav.Link>
             </Nav.Item>
 
