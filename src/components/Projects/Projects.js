@@ -15,20 +15,19 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+        <strong className="purple">Services </strong> I offer
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          See something you would like setup or need assistance with? <br />
+          Submit a ticket via https://leet-tech.atlassian.net/servicedesk/customer/portals
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Web & service hosting"
+              description="Host numerous service like websites, VPNs, cloud storage, virtual machines. Also setup and manage domain names making it easier to access your resources remotely"
             />
           </Col>
 
