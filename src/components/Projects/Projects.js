@@ -20,7 +20,8 @@ function Projects() {
         <p style={{ color: "white" }}>
           See something you would like setup or need assistance with? <br />
           Submit a ticket via 
-        </p> <a href="https://leet-tech.atlassian.net/servicedesk/customer/portals" target="_blank">Leet-tech Ticketing Portal</a>
+        </p> 
+        <a href="https://leet-tech.atlassian.net/servicedesk/customer/portals" target="_blank" rel="noreferrer">Leet-tech Ticketing Portal</a>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
