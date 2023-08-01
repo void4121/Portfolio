@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { FcSupport } from "react-icons/Fc";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
@@ -21,11 +22,19 @@ function Projects() {
         </h1>
         <p style={{ color: "white" }}>
           See something you would like setup or need assistance with? <br />
-          Submit a ticket via 
+          Submit a ticket by clicking on the Wrench below and creating an account
         </p> 
 
-          <a href="https://leet-tech.atlassian.net/servicedesk/customer/portals" target="_blank" rel="noreferrer">Leet-tech Ticketing Portal</a>
-
+        <li className="social-icons">
+                <a
+                  href="https://leet-tech.atlassian.net/servicedesk/customer/portals"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FcSupport />
+                </a>
+         </li>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard

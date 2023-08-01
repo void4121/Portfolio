@@ -28,7 +28,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Technophile, who enjoys tech outside of work. 😃
+              Just an average tech enthusiast 😄
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -62,16 +62,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-                </li>
-                <li className="social-icons">
-                <a
-                  href="https://leet-tech.atlassian.net/servicedesk/customer/portals"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillBulb />
                 </a>
                 </li>
             </ul>
