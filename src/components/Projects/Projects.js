@@ -39,7 +39,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={web_hosting.png}
+              imgPath={web_hosting}
               isBlog={false}
               title="Web & service hosting"
               description="Host numerous service like websites, VPNs, cloud storage, virtual machines. Also setup and manage domain names making it easier to access your resources remotely"
