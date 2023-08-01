@@ -17,18 +17,6 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
-      <Button
-                href="https://leet-tech.atlassian.net/servicedesk/customer/portals"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <FcAssistant style={{ fontSize: "1.2em" }} />{" "}
-        </Button>
-
-
-
-          <a href="https://leet-tech.atlassian.net/servicedesk/customer/portals" target="_blank" rel="noreferrer">Leet-tech Ticketing Portal</a>
-
       <Container>
         <h1 className="project-heading">
         <strong className="purple">Services </strong> I offer
@@ -37,16 +25,6 @@ function Projects() {
           See something you would like setup or need assistance with? <br />
           Submit a ticket via 
         </p> 
-
-        <Button
-                href="https://leet-tech.atlassian.net/servicedesk/customer/portals"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <FcAssistant style={{ fontSize: "1.2em" }} />{" "}
-        </Button>
-
-
 
           <a href="https://leet-tech.atlassian.net/servicedesk/customer/portals" target="_blank" rel="noreferrer">Leet-tech Ticketing Portal</a>
 
