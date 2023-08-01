@@ -6,7 +6,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import web_hosting from "../../Assets/Projects/web_hosting.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -39,7 +39,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={web_hosting.png}
               isBlog={false}
               title="Web & service hosting"
               description="Host numerous service like websites, VPNs, cloud storage, virtual machines. Also setup and manage domain names making it easier to access your resources remotely"
