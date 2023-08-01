@@ -50,7 +50,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Hardware repair"
-              description=""
+              description="Desktop part replacement (GPU, CPU, MOBO, RAM, Storage). Laptop repair (screen, battery, keyboards)"
              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               //demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -61,7 +61,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Software installations"
-              description="Includes OS (operating systems)"
+              description="OS (operating systems) installs. All non licensed software (unless licesnse is provided)"
              // ghLink="https://github.com/soumyajit4419/Editor.io"
              // demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -94,7 +94,7 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Special Serv"
-              description="Install networking, computer, IOT equipment"
+              description="Install networking (routers, switches, Access Points/extenders), computer (inquire about special request), IOT equipment (smart devices, raspberry PIs)"
             //  ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
