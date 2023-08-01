@@ -21,9 +21,10 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                Welcome to
+                Welcome to 
                 <strong className="main-name"> Leet-tech </strong>
               </h1>
+              <a href="https://leet-tech.atlassian.net/servicedesk/customer/portals" target="_blank" rel="noreferrer">Leet-tech Ticketing Portal</a>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
