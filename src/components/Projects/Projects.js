@@ -22,6 +22,7 @@ function Projects() {
         </h1>
         <p style={{ color: "white" }}>
           See something you would like setup or need assistance with? <br />
+          Prices discussed upon creating a ticket. Remote services offered 😃<br/>
           Submit a ticket by clicking on the Wrench below and creating an account
         </p> 
 
