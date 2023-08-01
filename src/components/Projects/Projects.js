@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FcSupport } from "react-icons/fc";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import hardware_repair from "../../Assets/Projects/hardware_repair.png";
+import tutoring from "../../Assets/Projects/tutoring.png";
+import software_installs from "../../Assets/Projects/software_installs.png";
 import web_hosting from "../../Assets/Projects/web_hosting.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import scripting from "../../Assets/Projects/scripting.png";
+import spec_serv from "../../Assets/Projects/spec_serv.png";
 
 
 
@@ -48,7 +48,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={hardware_repair}
               isBlog={false}
               title="Hardware repair"
               description="Desktop part replacement (GPU, CPU, MOBO, RAM, Storage). Laptop repair (screen, battery, keyboards)"
@@ -59,7 +59,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={software_installs}
               isBlog={false}
               title="Software installations"
               description="OS (operating systems) installs. All non licensed software (unless licesnse is provided)"
@@ -70,7 +70,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={scripting}
               isBlog={false}
               title="Simple scripting"
               description="Using python to automate tasks I write scripts for windows and linux to execute certain commands"
@@ -81,7 +81,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={tutoring}
               isBlog={false}
               title="Tutoring"
               description="Tutor across many different topics including C++ and python. OOP (object orientated programming)"
@@ -92,7 +92,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={spec_serv}
               isBlog={false}
               title="Special Serv"
               description="Install networking (routers, switches, Access Points/extenders), computer (inquire about special request), IOT equipment (smart devices, raspberry PIs)"
