@@ -26,8 +26,9 @@ function Projects() {
             target="_blank"
             className="fork-btn-inner"
         ></Button>
+        <body>
         <a href="https://leet-tech.atlassian.net/servicedesk/customer/portals" target="_blank" rel="noreferrer">Leet-tech Ticketing Portal</a>
-
+        </body>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
