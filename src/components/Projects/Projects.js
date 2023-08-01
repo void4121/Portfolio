@@ -1,10 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import { FcAssistant } from "react-icons/fc";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
