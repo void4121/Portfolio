@@ -1,8 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
+import { FcAssistant } from "react-icons/fc";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -21,9 +23,19 @@ function Projects() {
           See something you would like setup or need assistance with? <br />
           Submit a ticket via 
         </p> 
-        <body>
+
+        <Button
+                href="https://leet-tech.atlassian.net/servicedesk/customer/portals"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                <FcAssistant style={{ fontSize: "1.2em" }} />{" "}
+        </Button>
+
+
+
           <a href="https://leet-tech.atlassian.net/servicedesk/customer/portals" target="_blank" rel="noreferrer">Leet-tech Ticketing Portal</a>
-        </body>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
