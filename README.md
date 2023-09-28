@@ -1,5 +1,6 @@
-#This repo was forked from Soumyajit
 <h1>Portfolio for my website</h1>
+This repo was forked from Soumyajit
+
 
 <br/>
 <h2 align="center">
